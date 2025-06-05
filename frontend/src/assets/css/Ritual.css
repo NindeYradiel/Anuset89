@@ -1,0 +1,73 @@
+.ritual-container {
+  min-height: 100vh;
+  background: url('/fondo.png') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.ritual-music {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: rgba(30, 30, 46, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 0 10px #cba6f7;
+  z-index: 10;
+}
+
+.ritual-form {
+  background-color: rgba(10, 10, 20, 0.85);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 20px #cba6f7;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  color: #fff;
+  text-align: center;
+}
+
+.ritual-form h1 {
+  font-size: 1.5rem;
+  color: #cba6f7;
+  text-shadow: 0 0 5px #cba6f7;
+  margin-bottom: 1rem;
+}
+
+.ritual-form input,
+.ritual-form textarea {
+  background: #1e1e2e;
+  border: 1px solid #cba6f7;
+  color: #fff;
+  padding: 0.6rem;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+}
+
+.ritual-form button {
+  background: #cba6f7;
+  color: #000;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ritual-form button:hover {
+  background: #dcb8ff;
+}
+
+.btn-entrar {
+  color: #cba6f7;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-decoration: underline;
+}

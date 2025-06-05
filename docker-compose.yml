@@ -1,0 +1,10 @@
+services:
+  frontend:
+    build: ./frontend
+    network_mode: host
+    restart: always
+
+  backend:
+    build: ./backend
+    network_mode: host
+    restart: always

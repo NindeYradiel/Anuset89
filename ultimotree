@@ -1,0 +1,45 @@
+.
+├── backend
+│   ├── Dockerfile
+│   ├── generator.py
+│   ├── main.py
+│   └── requirements.txt
+├── data
+├── docker-compose.yml
+├── frontend
+│   ├── Dockerfile
+│   ├── nginx.conf
+│   ├── package.json
+│   ├── public
+│   │   ├── fondo.png
+│   │   ├── font-console.css
+│   │   ├── iconokali.jpg
+│   │   ├── index.html
+│   │   ├── input-glow.css
+│   │   ├── manifest.webmanifest
+│   │   ├── musicaOcean.mp3
+│   │   ├── particles.js
+│   │   ├── rize-reflejo.css
+│   │   ├── service-worker.js
+│   │   ├── splash.css
+│   │   └── webui-button.css
+│   └── src
+│       └── components
+│           └── Ritual.jsx
+├── Proyecto AnuSet89 – Diseño e implementación completa.pdf
+├── README.md
+├── start.sh
+├── treee
+├── ultimotree
+└── webui
+    ├── boton_plugin_creator.py
+    ├── Dockerfile
+    ├── ia_config.json
+    ├── ia_installer.py
+    ├── main.py
+    ├── __pycache__
+    │   └── main.cpython-310.pyc
+    └── tools
+        └── boton_plugin_creator.py
+
+10 directories, 33 files

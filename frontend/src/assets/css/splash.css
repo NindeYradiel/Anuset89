@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url('/fondo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #cba6f7;
+  text-align: center;
+}
+
+.splash-container {
+  padding: 2rem;
+  backdrop-filter: blur(4px);
+}
+
+.rize-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 1rem auto;
+  display: block;
+  border: 2px solid #cba6f7;
+  box-shadow: 0 0 15px #cba6f7;
+}
+
+.titulo-splash {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px #cba6f7;
+}
+
+.audio-player {
+  margin: 1rem auto;
+  display: block;
+  filter: drop-shadow(0 0 6px #cba6f7);
+}
+
+.splash-buttons {
+  margin-top: 2rem;
+}
+
+.btn-entrar {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #cba6f7;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn-entrar:hover {
+  background-color: #b491f9;
+  color: #1e1e2e;
+  border: 1px solid #cba6f7;
+  box-shadow: 0 0 12px #cba6f7, 0 0 24px #cba6f7;
+  transition: all 0.3s ease-in-out;
+}

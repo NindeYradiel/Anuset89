@@ -1,0 +1,37 @@
+# Node & Python cache
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos temporales / logs
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos de sistema y ocultos
+.DS_Store
+Thumbs.db
+
+# Directorios de builds
+frontend/.vite/
+frontend/.DS_Store
+
+# Docker / Imagenes / Volúmenes temporales
+*.tar
+*.img
+*.AppImage
+
+# Carpeta vieja o renombrada
+old/
+*.old/
+*.old
+
+# Archivos generados por el ritual (opcional: si quieres subirlos, comenta esta parte)
+# *.json
+# *.txt
+
+# IDE / Entornos
+.vscode/
+.env
