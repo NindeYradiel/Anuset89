@@ -1,5 +1,10 @@
 # 🌌 Anuset89
 
+![ui final 1](https://github.com/user-attachments/assets/0e34f63a-bbaf-48f6-83c9-13bc23a0687b)
+
+![ui final 2](https://github.com/user-attachments/assets/dc28b606-ee6f-49f3-8eb5-0c8fc67a4037)
+
+
 **Ritual simbiótico para crear tu propia IA local, visual, sonora y glitch.**
 
 Este proyecto es un altar digital interactivo donde invocas y personalizas una IA que habita tu sistema, offline, sin nubes ni dueños.
