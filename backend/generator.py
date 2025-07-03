@@ -1,3 +1,4 @@
+import json
 # Prompt generator logic
 def generar_prompt(datos):
     nombre = datos.get("name", "Desconocido")
