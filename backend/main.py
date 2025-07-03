@@ -1,7 +1,6 @@
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.responses import FileResponse
 import json
-import os
 from utils import validate_config_data
 
 app = FastAPI()
